@@ -1,0 +1,153 @@
+h2{
+    font-size: 70px;
+    color: white;
+    margin-right: 100px;
+   
+    
+   
+    
+    
+  }
+
+  
+  body{
+   background-repeat: no-repeat;
+   background-size: 220%;
+   background: linear-gradient(black,rgb(63, 10, 63));
+   height: 2800px;
+   cursor:default;
+  }
+
+  .text1{
+    position: relative;
+    left: 38%;
+    top:1%;
+  }
+
+  .box1{
+    color: white;
+    background: linear-gradient(#5941768a,#262020);
+    width: 420px;
+    height: 450px;
+    display: flex;
+    margin-left: 220px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px purple, 0 0 25px blueviolet;
+    border-color: blueviolet;
+   ;
+    
+  
+    
+    
+    
+  }
+
+  .box2{
+    color: white;
+    background: linear-gradient(#59417698,#262020);
+    width: 420px;
+    height: 450px;
+    margin-left: 150px;
+    border-radius: 30px;
+    cursor: default;
+    box-shadow: 0 0 5px purple, 0 0 25px blueviolet;
+    border-color: blueviolet;
+  
+    
+
+  }
+
+  .center{
+    display: flex;
+    flex-direction: row;
+  }
+   
+.btn1{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(39, 37, 43, 0.351);
+  margin-left: 160px;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+}
+
+.txt1{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  
+}
+
+.button{
+  padding-top: 100px;
+  margin-right: 90px;
+  height: 50px;
+}
+
+.txt2{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+
+}
+
+.btn2{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(39, 37, 43, 0.351);
+  margin-left: 175px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.fa-user{
+  font-size: 120px;
+  margin-left: 40%;
+  margin-top: 40px;
+
+}
+
+.fa-laptop-code{
+  font-size: 120px;
+  margin-left: 35%;
+  margin-top: 40px;
+
+}
+
+
+.btn1:hover{
+  
+  box-shadow: 0 0 5px purple,0 0 20px purple,0 0 40px blueviolet;
+  
+
+ 
+}
+
+.btn2:hover{
+  box-shadow: 0 0 5px purple,0 0 20px purple,0 0 40px blueviolet;
+  
+  
+ 
+  
+}
+

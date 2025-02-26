@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="demo2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="text1">
+        <h2 id="greeting">Loading...</h2>
+    </div>
+<div class="center">
+<div class="box1">
+    <i class="fa-solid fa-user"></i>
+    <p class="txt1">view my profile</p>
+    <button class="btn1" onclick="document.location='profile.html'">click me</button>
+    
+</div>
+<div class="box2">
+    <i class="fa-solid fa-laptop-code"></i>
+    <p class="txt2">view my project</p>
+    <button class="btn2"onclick="document.location='project.html'">click me</button>
+
+</div>
+
+
+</div>
+
+
+
+    <script>
+        // Retrieve name from localStorage
+        let name = localStorage.getItem("username");
+
+        // Display name if it exists, otherwise show default message
+        if (name) {
+            document.getElementById("greeting").textContent = "Hello, " + name + "!";
+        } else {
+            document.getElementById("greeting").textContent = "Hello, Guest!";
+        }
+    </script>
+
+</body>
+</html>
